@@ -3,8 +3,8 @@ Test jobs
 
 Use ready-made files in test_jobs/, or...
 
-1. download and unpack [splitjobs.zip](http://www.kaggle.com/c/job-recommendation/download/splitjobs.zip)
-2. extract job start & end timestamps for each window:
+* download and unpack [splitjobs.zip](http://www.kaggle.com/c/job-recommendation/download/splitjobs.zip)
+* extract job start & end timestamps for each window:
 
 `job_times.py <input file> <output file> [<errors file>]`
 
@@ -18,7 +18,7 @@ job_times.py jobs6.tsv jobs6.csv errors6.csv
 job_times.py jobs7.tsv jobs7.csv errors7.csv
 ```
 
-3. extract test jobs:
+* extract test jobs:
 
 `test_jobs.py window_dates.tsv`
 
