@@ -1,5 +1,7 @@
-kaggle-jobs
-===========
+Test jobs
+=========
+
+Use ready-made files in test_jobs/, or...
 
 1. download and unpack [splitjobs.zip](http://www.kaggle.com/c/job-recommendation/download/splitjobs.zip)
 2. extract job start & end timestamps for each window:
